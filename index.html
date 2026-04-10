@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ateliê de Crochê - Laura</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>🧶 Meu Ateliê de Crochê</h1>
+        <div id="stats">
+            <p>Projetos: <span id="total-count">0</span> | Concluídos: <span id="done-count">0</span></p>
+        </div>
+    </header>
+
+    <main>
+        <section id="novo-projeto">
+            <h2>Novo Projeto</h2>
+            <div class="form-group">
+                <input type="text" id="nome" placeholder="Nome da peça (ex: Manta)">
+                <input type="text" id="linha" placeholder="Tipo de Linha">
+                <input type="text" id="agulha" placeholder="Tam. Agulha">
+                <button onclick="salvarProjeto()">Cadastrar</button>
+            </div>
+        </section>
+
+        <section id="lista-projetos">
+            <h2>Meus Projetos</h2>
+            <div id="cards-container" class="grid-container">
+                </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
