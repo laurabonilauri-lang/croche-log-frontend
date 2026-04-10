@@ -19,10 +19,9 @@ Interface web para o gerenciamento do **Ateliê de Crochê**. Uma Single Page Ap
 ## 🚀 Como Executar
 
 1. Certifique-se de que a [API do projeto](https://github.com/laurabonilauri-lang/croche-log-api) esteja rodando localmente na porta 5000.
-2. Abra a pasta `frontend` no VS Code.
-3. Utilize a extensão **Live Server** para abrir o arquivo `index.html`.
-4. O sistema estará acessível em: `http://127.0.0.1:5500`
-
+2. Navegue até a pasta `frontend` em seu computador.
+3. Localize o arquivo **`index.html`** e abra-o diretamente com o navegador de sua preferência (ex: Chrome, Edge ou Firefox).
+4. **Não é necessário** utilizar extensões (como Live Server), servidores locais ou configurações adicionais.
 ---
 
 ## 🔗 Integração
